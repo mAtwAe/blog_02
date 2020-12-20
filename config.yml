@@ -1,85 +1,160 @@
 baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
-title: ExampleSite
-paginate: 5
+title: PaperMod
+paginate: 8
 theme: hugo-PaperMod
-
+enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
 
-googleAnalytics: UA-123-45
+# googleAnalytics: UA-123-45
 
 minify:
     disableXML: true
-    minifyOutput: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+
+    l2:
+        languageName: "Lang2"
+        weight: 2
+        title: PaperModL2
+        profileMode:
+            enabled: true
+            title: PaperMod
+            # imageUrl: "#"
+            # imageTitle: my image
+            # imageWidth: 120
+            # imageHeight: 120
+            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+            buttons:
+                - name: Blog
+                  url: posts
+                - name: Tags
+                  url: tags
+        menu:
+            main:
+                - name: Archive
+                  url: archives/
+                  weight: 5
+                - name: Tags
+                  url: tags
+                  weight: 10
+                - name: Categories
+                  url: categories
+                  weight: 10
+                - name: Series
+                  url: series
+                  weight: 10
+                - name: NullLink
+                  url: "#"
+                - name: NullLink2
+                  url: "#"
+                - name: NullLink3
+                  url: "#"
+
+    l3:
+        languageName: "Langrtl"
+        languagedirection: rtl
+        weight: 3
+        title: PaperMod RTL
+        homeInfoParams:
+            Title: "Hi there \U0001F44B"
+            Content: Welcome to RTL layout
+        menu:
+            main:
+                - name: Tags
+                  url: tags
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
-    author: Me
+    env: production
+    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    author: Theme PaperMod
     # author: ["Me", "You"] # multiple authors
-
-    images: "<link or path of image for opengraph, twitter-cards>"
-
     ShowReadingTime: true
-    ShowShareButtons: true
-    comments: false
     defaultTheme: auto
-    disableThemeToggle: false
-    disableSpecial1stPost: false
+    ShowShareButtons: true
+    displayFullLangName: true
+    # images: ""
+    # assets:
+    #   favicon: '<path / external url>'
 
-    assets:
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
-
-    label:
-        text: "Home"
-        icon: /apple-touch-icon.png
-        iconHeight: 35
-
-    # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        # imageUrl: '<img location>'
-        # imageTitle: my image
+        enabled: false
+        title: PaperMod
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
         buttons:
-            - name: Posts
-              url: posts
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
 
-    # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Content: >
+            Welcome to demo of hugo's theme PaperMod.
+
+            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
 
     socialIcons:
         - name: twitter
-          url: "https://twitter.com/"
+          url: "#"
         - name: stackoverflow
-          url: "https://stackoverflow.com"
+          url: "#"
+        - name: codepen
+          url: "#"
+        - name: linkedin
+          url: "#"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/adityatelange/hugo-PaperMod"
 
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
 
-  # menu:
-  #     main:
-        # - identifier: categories
-        #   name: categories
-        #   url: /categories/
-        #   weight: 10
-        # - identifier: tags
-        #   name: tags
-        #   url: /tags/
-        #   weight: 20
-        # - identifier: example
-        #   name: example.org
-        #   url: https://example.org
-        #   weight: 30
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
