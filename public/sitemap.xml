@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/page/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/en/sitemap.xml</loc>
+    
+      <lastmod>2020-09-17T11:30:03+05:30</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/l2/sitemap.xml</loc>
+    
+      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/tags/first/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/l3/sitemap.xml</loc>
+    
+      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/tags/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/categories/</loc>
-  </url>
-  
-</urlset>
+</sitemapindex>
