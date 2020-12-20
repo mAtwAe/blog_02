@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com"
+baseURL: https://example.com
 title: ExampleSite
 paginate: 5
 theme: hugo-PaperMod
@@ -65,9 +65,9 @@ params:
         - name: github
           url: "https://github.com/"
 
-    analytics:
-        google:
-            SiteVerificationTag: "XYZabc"
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
 
   # menu:
   #     main:
