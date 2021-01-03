@@ -14,7 +14,7 @@ minify:
 languages:
     en:
         languageName: "English"
-        weight: 1
+        weight: 1 
         menu:
             main:
                 - name: Archive
@@ -62,9 +62,7 @@ params:
     homeInfoParams:
         Title: "Hi there \U0001F44B"
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
-
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+            Welcome to my corner of the internet. My Blog is the main attraction, a loose collection of thoughts, things learned, and who-knows-whats.
 
     socialIcons:
         - name: twitter
