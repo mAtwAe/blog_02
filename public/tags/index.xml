@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ridhuan</title>
+    <link>https://ridhuan.dev/tags/</link>
+    <description>Recent content in Tags on Ridhuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://ridhuan.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginning</title>
+      <link>https://ridhuan.dev/tags/beginning/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://ridhuan.dev/tags/beginning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>first</title>
+      <link>https://ridhuan.dev/tags/first/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://ridhuan.dev/tags/first/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
